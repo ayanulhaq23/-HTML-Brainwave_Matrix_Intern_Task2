@@ -1,0 +1,334 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+ 
+    /* font-family: 'Gill Sans'; */
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#left-scroller{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    left: -100%;
+    display: flex;
+    transition-duration: 2s;
+}
+#left-scroller>h2{
+    font-size: 55px;
+    font-family: gilroy;
+
+}
+#lefty{
+    width: 50%;
+    height: 100%;
+  
+ 
+}
+#back{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid lightblue;
+    font-size: 35px;
+    color: rgb(154, 46, 46) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#righty{
+     width: 50%;
+     height: 100%;
+      
+
+}
+#righty>h1{
+    font-size: 75px;
+    margin-top: 40px;
+    margin-left: 20px;
+font-weight: 200;
+font-family: gilroy;
+letter-spacing: 2px;
+color: rgb(0, 0, 0);
+
+}
+#righty>h3{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: 20%;
+    margin-left: 20px;
+font-weight: 900;
+font-family: gilroy;
+letter-spacing: 2px;
+line-height: 50px;
+
+}
+
+#main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+#page1{
+   width: 100%;
+   height: 100%;
+   background-color: #010DBF; 
+}
+#nav{
+    /* background-color: brown; */
+    width: 100%;
+    height: 100px;
+    top: 10%;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 160px;
+    display: flex;
+
+}
+#nav>h1{
+    font-size: 45px;
+    font-weight: 500;
+    color: WHITE;
+    letter-spacing: 1px;
+}
+#menu{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid lightblue;
+    font-size: 45px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 22px;
+}
+
+#left{
+
+    width: 50vw;
+    height: 100vh;
+}
+#left>h1{
+    color: white;
+    margin-left: 21%;
+    top: 35%;
+    position: relative;
+letter-spacing: 7px;
+line-height: 130px;
+font-weight: 100;
+font-size: 120px;
+}
+#left h1:nth-child(2){
+    font-style: italic;
+
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+     
+}
+#page2>h2{
+   
+    margin-left: 10%;
+    margin-top: 11%;
+    color: #010DBF;
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+.pic1{
+    background-color: aqua;
+    width: 80vw;
+    height: 70vh;
+  
+    border-radius: 15px;
+    margin-top: 150px ;
+    position: relative;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.pic1>h3{
+    position: absolute;
+    font-size: 25px;
+    top: 43%;
+    margin-left: 50px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: white;
+}
+
+.pic1>h1{
+    font-family: gilroy;
+    font-weight: 900;
+    position: absolute;
+    font-size: 35px;
+    bottom: 17%;
+    margin-left: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: white;
+}
+.pic1>img{
+    object-fit: cover;
+    width: 80vw;
+    height: 70vh;
+    border-radius: 15px;
+
+}
+#page2>h1{
+    margin-left: 10%;
+    margin-top: 15%;
+    color: #010DBF;
+    font-size: 55px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+#page2>h5{
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #010DBF;
+    font-size: 35px;
+    font-weight: 900;
+
+}
+#page2>h3{
+
+    margin-left: 10%;
+    margin-top: 18%;
+    color: #010DBF;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 60px;
+
+}
+#coloumb{
+    position: relative;
+    top: 10%;
+   
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+  margin-left: auto;
+    margin-right: auto;
+   
+
+}
+#first{
+  
+    width: 35%;
+    height: 100%;
+  
+}
+#first h2{
+letter-spacing: 1px;
+    font-size: 32px;
+    line-height: 70px;
+    font-weight: 100;
+    color:#010DBF ;
+}
+#first h2:nth-child(1){
+    color:#000;
+
+}
+#second{
+
+    width: 35%;
+    height: 100%;
+    
+}
+#second h2{
+letter-spacing: 1px;
+    font-size: 32px;
+    line-height: 70px;
+    font-weight: 100;
+    color:#010DBF ;
+}
+#second h2:nth-child(1){
+    color:#000 ;
+
+}
+#third{
+ 
+    width: 35%;
+    height: 100%;
+    /* margin-top: 20px; */
+}
+#third h2{
+letter-spacing: 1px;
+    font-size: 32px;
+    line-height: 70px;
+    font-weight: 100;
+    color:#010DBF ;
+}
+#third h2:nth-child(1){
+    color: #000;
+
+}
+#last{
+    background-color: #010DBF;
+    height: 90%;
+    width: 100%;
+    margin-top: 12%;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    
+}
+#last>h2{
+    color: white;
+    font-size: 55px;
+    position: relative;
+    top: 20%;
+    left: 12%;
+    font-weight: 100;
+    letter-spacing: 1px;
+
+}
+#last>h1{
+    color: white;
+    font-size: 75px;
+    position: relative;
+    top: 23%;
+    left: 12%;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+}
+#last>h3{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 25%;
+    line-height: 60px;
+    left: 12%;
+    font-weight: 100;
+}
+#last>h4{
+    color: white;
+    font-size: 35px;
+    position: relative;
+    top: 43%;
+
+    left: 12%;
+    font-weight: 100;
+}
